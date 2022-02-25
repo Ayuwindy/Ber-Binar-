@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header navbar & hero */
+header{
+    background-color: #F1F3FF;
+    height: 500px;
+    width: 1300px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: Black !important;
+    font-weight: normal;
+}
+
+.nav-tank{
+    background: #5CBB5F;
+    border-radius: 2px;
+}
+
+.col-md-6{
+    margin-top: 127px;
+}
+
+
+/* Our Services */
+.contain{
+    margin-top: 150px;
+}
+
+#services{
+    margin-top: 80px;
+}
+
+/* Why Us */
+#why{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+/* Testimony */
+.carousel-indicators li{
+    background: #f1f3ff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    top: 100px;
+    
+}
+
+.carousel-indicators .active{
+    background: #5CBB5F;
+}
+
+/* CTA Banner */
+.col a{
+    margin-top: 25px;
+}
+
+/* FAQ */
+.accordion-item{
+    background-color: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 600px;
+}
+.accordion-link{
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.answer{
+    left: 10px;
+    max-height: 0;
+    overflow: hidden;
+    position: relative; 
+    transition: max-height 650ms;
+}
+
+.answer p{
+    padding-top: 20px;
+    
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+/* Footer */
+.feather{
+    width: 25px;
+    height: 25px;
+    background: #0D28A6;
+    border-radius: 100%;
+    color: white;
+}
+
+.feather-instagram{
+    margin-left: 5px;
+}
+
+.feather-twitter{
+    margin-left: 5px;
+}
+
+.feather-mail{
+    margin-left: 5px;
+}
+
+.feather-twitch{
+    margin-left: 4px;
+}
